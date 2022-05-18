@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.button {
+  align-content: center;
+  align-items: center;
+  background: #4be4b4;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: none;
+  cursor: pointer;
+  display: block;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  height: auto;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 16px;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  user-select: none;
+  width: 300px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
